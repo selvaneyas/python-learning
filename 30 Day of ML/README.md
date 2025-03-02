@@ -24,3 +24,19 @@ Today, we explored the key Python libraries for Machine Learning:
 ✅ **Pandas** – Data manipulation  
 ✅ **Matplotlib & Seaborn** – Data visualization  
 ✅ **Scikit-Learn** – ML model training  
+
+
+
+
+# 📌 Day 3: Data Preprocessing & Cleaning in ML  
+
+## 🔹 Why is Data Preprocessing Important?  
+Raw data can be messy, so we need to clean and transform it before using it in ML models.  
+
+## 🔹 Key Steps Covered  
+✅ Handling Missing Data  
+✅ Removing Duplicates  
+✅ Feature Scaling (Standardization, Min-Max Scaling)  
+✅ Encoding Categorical Data  
+
+
