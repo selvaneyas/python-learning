@@ -40,3 +40,15 @@ Raw data can be messy, so we need to clean and transform it before using it in M
 ✅ Encoding Categorical Data  
 
 
+
+# 📌 Day 4: Exploratory Data Analysis (EDA)  
+
+## 🔹 Why is EDA Important?  
+EDA helps us understand patterns in data before applying ML models.  
+
+## 🔹 Key EDA Techniques Covered  
+✅ Summary Statistics (`describe()`, `info()`)  
+✅ Handling Missing Values (`isnull()`, `fillna()`)  
+✅ Data Visualization (Histograms, Boxplots, Correlation Heatmaps)  
+
+
