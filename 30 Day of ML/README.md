@@ -52,3 +52,15 @@ EDA helps us understand patterns in data before applying ML models.
 ✅ Data Visualization (Histograms, Boxplots, Correlation Heatmaps)  
 
 
+
+# 📌 Day 5: Feature Engineering in Machine Learning  
+
+## 🔹 Why is Feature Engineering Important?  
+Feature Engineering transforms raw data into meaningful inputs for ML models.  
+
+## 🔹 Key Techniques Covered  
+✅ Handling Missing Values (`SimpleImputer`)  
+✅ Encoding Categorical Variables (`OneHotEncoder`)  
+✅ Scaling & Normalization (`StandardScaler`)  
+✅ Feature Selection (`SelectKBest`)  
+✅ Creating New Features (`pd.cut()`)  
