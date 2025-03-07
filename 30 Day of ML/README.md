@@ -91,3 +91,33 @@ Outliers are data points that significantly deviate from the rest of the dataset
 - **DBSCAN (Density-Based Clustering)**  
 
 ---
+
+# **📌 Day 7: Handling Outliers – Treatment Methods in Machine Learning (Python)**
+
+Outliers can distort statistical measures and negatively impact machine learning models. Once detected (Day 6), the next step is handling them effectively.
+
+## **🔍 Why Handle Outliers?**
+
+✅ Prevents misleading insights
+
+✅ Enhances model stability
+
+✅ Reduces the risk of overfitting
+
+## **🛠️ Methods to Handle Outliers**
+
+1️⃣ *Capping (Winsorization)*
+
+Replaces extreme values with a specified percentile (e.g., 5th and 95th percentiles).
+Useful when outliers carry some meaningful information.
+
+2️⃣ *Transformation Techniques*
+
+- Log Transformation: Reduces skewness and minimizes outlier impact.
+- Box-Cox Transformation: Normalizes non-Gaussian distributed data.
+- Power Transformations: Stabilizes variance.
+
+3️⃣ *Removing Outliers*
+
+- Based on statistical measures (e.g., IQR, Z-score).
+- Ideal when outliers are due to data errors or extreme noise.
