@@ -121,3 +121,65 @@ Useful when outliers carry some meaningful information.
 
 - Based on statistical measures (e.g., IQR, Z-score).
 - Ideal when outliers are due to data errors or extreme noise.
+
+---
+
+## 🧪🤖 𝐃𝐚𝐲 𝟖: 𝐓𝐫𝐚𝐢𝐧-𝐓𝐞𝐬𝐭 𝐒𝐩𝐥𝐢𝐭𝐭𝐢𝐧𝐠 & 𝐂𝐫𝐨𝐬𝐬-𝐕𝐚𝐥𝐢𝐝𝐚𝐭𝐢𝐨𝐧 𝐢𝐧 𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠  | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+## 🔍 𝐖𝐡𝐲 𝐃𝐨 𝐖𝐞 𝐒𝐩𝐥𝐢𝐭 𝐃𝐚𝐭𝐚?
+
+ ✅ Avoid Overfitting – Helps the model generalize to new data.
+
+ ✅ Model Evaluation – Measures performance on unseen data before deployment.
+
+ ✅ Better Decision-Making – Ensures the model isn't biased toward specific data patterns.
+
+
+
+## 🛠 𝐓𝐫𝐚𝐢𝐧-𝐓𝐞𝐬𝐭 𝐒𝐩𝐥𝐢𝐭 (𝐁𝐚𝐬𝐢𝐜 𝐌𝐞𝐭𝐡𝐨𝐝)
+
+The dataset is divided into two parts:
+
+ 📌 Training Set (80%) – Used to train the model.
+
+ 📌 Test Set (20%) – Used to evaluate model performance.
+
+ 🔹 random_state=42 ensures reproducibility.
+
+ 🔹 test_size=0.2 means 20% of the data is used for testing.
+
+
+
+## 🛠 𝐂𝐫𝐨𝐬𝐬-𝐕𝐚𝐥𝐢𝐝𝐚𝐭𝐢𝐨𝐧: 𝐀 𝐌𝐨𝐫𝐞 𝐑𝐞𝐥𝐢𝐚𝐛𝐥𝐞 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡
+
+Instead of a single train-test split, cross-validation divides the dataset into multiple folds, training the model on different subsets and evaluating on the remaining fold. This reduces bias and variance.
+
+
+
+### 🔄 𝑲-𝑭𝒐𝒍𝒅 𝑪𝒓𝒐𝒔𝒔-𝑽𝒂𝒍𝒊𝒅𝒂𝒕𝒊𝒐𝒏
+
+K-Fold CV splits the dataset into K equal parts (e.g., 5 or 10).
+
+The model is trained K times, with a different fold used for testing each time.
+
+
+
+The final performance is the average of all K evaluations.
+
+ 🔹 KFold(n_splits=5): Splits the data into 5 folds.
+
+ 🔹 shuffle=True: Randomizes the data before splitting.
+
+
+
+## 🚀𝐒𝐮𝐦𝐦𝐚𝐫𝐲 & 𝐊𝐞𝐲 𝐓𝐚𝐤𝐞𝐚𝐰𝐚𝐲𝐬
+
+ ✅ Train-test split is essential for model evaluation.
+
+ ✅ Cross-validation improves reliability by testing on multiple subsets.
+
+ ✅ K-Fold CV (K=5 or 10) is commonly used for robust evaluation.
+
+ ---
