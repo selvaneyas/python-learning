@@ -124,7 +124,7 @@ Useful when outliers carry some meaningful information.
 
 ---
 
-## 🧪🤖 𝐃𝐚𝐲 𝟖: 𝐓𝐫𝐚𝐢𝐧-𝐓𝐞𝐬𝐭 𝐒𝐩𝐥𝐢𝐭𝐭𝐢𝐧𝐠 & 𝐂𝐫𝐨𝐬𝐬-𝐕𝐚𝐥𝐢𝐝𝐚𝐭𝐢𝐨𝐧 𝐢𝐧 𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠  | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+# 🧪🤖 𝐃𝐚𝐲 𝟖: 𝐓𝐫𝐚𝐢𝐧-𝐓𝐞𝐬𝐭 𝐒𝐩𝐥𝐢𝐭𝐭𝐢𝐧𝐠 & 𝐂𝐫𝐨𝐬𝐬-𝐕𝐚𝐥𝐢𝐝𝐚𝐭𝐢𝐨𝐧 𝐢𝐧 𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠  | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
 
 
 
@@ -183,3 +183,69 @@ The final performance is the average of all K evaluations.
  ✅ K-Fold CV (K=5 or 10) is commonly used for robust evaluation.
 
  ---
+
+ # ⚖ 𝐃𝐚𝐲 𝟗: 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐒𝐜𝐚𝐥𝐢𝐧𝐠 – 𝐍𝐨𝐫𝐦𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧 & 𝐒𝐭𝐚𝐧𝐝𝐚𝐫𝐝𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐢𝐧 𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+Feature scaling is a crucial preprocessing step in machine learning. Many algorithms perform better when numerical features are on the same scale. Today, we’ll explore Normalization and Standardization—two widely used techniques.
+
+
+
+## 🔍 Why Feature Scaling?
+
+     ✅ Improves Model Performance – Some ML algorithms are sensitive to scale differences.
+
+     ✅ Speeds Up Training – Gradient descent converges faster when features are scaled.
+
+     ✅ Enhances Comparability – Keeps all features on a similar range.
+
+
+
+## 📌 Normalization (Min-Max Scaling)
+
+Normalization (also called Min-Max Scaling) transforms features to a fixed range, typically [0,1] or [-1,1].
+
+
+
+      ✅ Best for neural networks and distance-based models (e.g., KNN, K-Means).
+
+🔹 Transforms values between 0 and 1.
+
+🔹 Sensitive to outliers (can distort scaling).
+
+
+
+## 📌 Standardization (Z-Score Scaling)
+
+Standardization (also called Z-score normalization) transforms features to have zero mean and unit variance.
+
+
+
+     ✅ Best for algorithms like Logistic Regression, SVM, PCA, and Linear Regression.
+
+🔹 Works well for normally distributed data.
+
+🔹 Less sensitive to outliers than Min-Max Scaling.
+
+
+
+## 🚀 When to Use Which?
+
+🔹 Use Normalization if the data follows a non-Gaussian distribution and models like KNN, K-Means, Neural Networks.
+
+🔹 Use Standardization if the data is normally distributed or required by algorithms like SVM, Linear Regression, or PCA.
+
+
+
+## 📌 Summary & Key Takeaways
+
+✅ Scaling is crucial for optimal model performance.
+
+✅ Normalization (Min-Max) scales data between [0,1].
+
+✅ Standardization (Z-score) ensures zero mean and unit variance.
+
+✅ Different algorithms prefer different scaling techniques.
+
+---
