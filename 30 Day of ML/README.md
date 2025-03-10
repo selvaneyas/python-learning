@@ -249,3 +249,62 @@ Standardization (also called Z-score normalization) transforms features to have 
 ✅ Different algorithms prefer different scaling techniques.
 
 ---
+
+# 💻𝐃𝐚𝐲 𝟏𝟎: 𝐒𝐮𝐩𝐞𝐫𝐯𝐢𝐬𝐞𝐝 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 – 𝐈𝐧𝐭𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧 𝐭𝐨 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+Today, we are diving into Supervised Learning, focusing on Regression, one of the foundational techniques in predictive modeling.
+
+
+
+## ✅ 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐒𝐮𝐩𝐞𝐫𝐯𝐢𝐬𝐞𝐝 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠?
+
+Supervised learning is a type of machine learning where the model is trained on 𝐥𝐚𝐛𝐞𝐥𝐞𝐝 𝐝𝐚𝐭𝐚 — meaning both 𝐢𝐧𝐩𝐮𝐭 (𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬) and 𝐨𝐮𝐭𝐩𝐮𝐭 (𝐭𝐚𝐫𝐠𝐞𝐭) are known.
+
+     📈 Regression is a type of supervised learning that predicts continuous values (e.g., price, temperature, salary).
+
+
+
+## 📊 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧?
+
+Regression models help us:
+
+     ✅ Predict numeric outcomes (continuous target).
+
+     ✅ Understand relationships between variables.
+
+     ✅ Estimate trends and make forecasts.
+
+
+
+## 🚀 𝐓𝐲𝐩𝐞𝐬 𝐨𝐟 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧 𝐌𝐨𝐝𝐞𝐥𝐬
+
+    1️⃣ Linear Regression – Predict target based on linear relationship.
+
+    2️⃣ Multiple Linear Regression – Multiple input variables for prediction.
+
+    3️⃣ Polynomial Regression – Non-linear relationships.
+
+    4️⃣ Regularized Regression – Ridge, Lasso (to prevent overfitting).
+
+
+
+## ✅ Key Insights
+
+  📌 Linear Regression is a simple yet powerful method to model relationships between variables.
+
+  📌 R² score tells us how well the model fits the data (closer to 1 is better).
+
+  📌 Regression line helps visualize predictions.
+
+
+## 🔑 Summary
+
+Regression predicts continuous outputs using input features.
+
+Linear models assume a straight-line relationship.
+
+Evaluating model using MSE and R² is essential.
+
+---
