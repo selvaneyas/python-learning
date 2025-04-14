@@ -308,3 +308,42 @@ Linear models assume a straight-line relationship.
 Evaluating model using MSE and R² is essential.
 
 ---
+# 💻Day 11: Linear Regression – Implementation & Evaluation
+
+
+
+Linear Regression is a supervised learning algorithm used for predicting continuous numeric values based on input features.
+
+Models relationship between independent (X) and dependent (y) variables.
+
+Predicts outcome using a linear relationship.
+
+
+
+## Implementation & Evaluation
+
+ ✅ Implement Linear Regression in Python.
+
+ ✅ Train and evaluate the model.
+
+ ✅ Understand key performance metrics.
+
+ ✅ Visualize the results for better insights.
+
+
+
+## ✅ Performance Metrics
+
+Mean Squared Error (MSE): Measures average squared difference between predicted and actual values. Lower is better.
+
+R² Score: Indicates how well data fit the regression model. Closer to 1 means better fit.
+
+
+
+-> Linear Regression models a linear relationship between inputs and output.
+
+-> Important to evaluate the model using MSE and R².
+
+-> Visualization of the regression line helps understand fit and trend.
+
+---
