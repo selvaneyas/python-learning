@@ -447,3 +447,67 @@ weighted avg       1.00      1.00      1.00        30
 - Easy to implement and interpret.
 
 ---
+
+# 📊 𝐃𝐚𝐲 𝟏𝟒: 𝐌𝐨𝐝𝐞𝐥 𝐄𝐯𝐚𝐥𝐮𝐚𝐭𝐢𝐨𝐧 𝐌𝐞𝐭𝐫𝐢𝐜𝐬 – 𝐌𝐀𝐄, 𝐌𝐒𝐄, 𝐑𝐌𝐒𝐄, 𝐀𝐜𝐜𝐮𝐫𝐚𝐜𝐲, 𝐏𝐫𝐞𝐜𝐢𝐬𝐢𝐨𝐧, 𝐑𝐞𝐜𝐚𝐥𝐥 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+Evaluating a Machine Learning model is crucial to measure how well it performs on unseen data. Different problems require different evaluation metrics!
+
+
+
+## ✅𝐖𝐡𝐲 𝐌𝐨𝐝𝐞𝐥 𝐄𝐯𝐚𝐥𝐮𝐚𝐭𝐢𝐨𝐧 𝐢𝐬 𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭?
+
+     🎯 Assess model's prediction quality
+
+     📈 Compare multiple models
+
+     🔁 Improve model performance through tuning
+
+
+
+## 🔑 𝐊𝐞𝐲 𝐄𝐯𝐚𝐥𝐮𝐚𝐭𝐢𝐨𝐧 𝐌𝐞𝐭𝐫𝐢𝐜𝐬:
+
+
+
+### 🔵 𝑭𝒐𝒓 𝑹𝒆𝒈𝒓𝒆𝒔𝒔𝒊𝒐𝒏 𝑷𝒓𝒐𝒃𝒍𝒆𝒎𝒔:
+
+1️⃣ 𝗠𝗔𝗘 (𝗠𝗲𝗮𝗻 𝗔𝗯𝘀𝗼𝗹𝘂𝘁𝗲 𝗘𝗿𝗿𝗼𝗿) – Average of absolute errors.
+
+     ➡️ Measures average magnitude of errors.
+
+2️⃣ 𝗠𝗦𝗘 (𝗠𝗲𝗮𝗻 𝗦𝗾𝘂𝗮𝗿𝗲𝗱 𝗘𝗿𝗿𝗼𝗿) – Average of squared errors.
+
+     ➡️ Penalizes larger errors more than smaller ones.
+
+3️⃣ 𝗥𝗠𝗦𝗘 (𝗥𝗼𝗼𝘁 𝗠𝗲𝗮𝗻 𝗦𝗾𝘂𝗮𝗿𝗲𝗱 𝗘𝗿𝗿𝗼𝗿) – Square root of MSE.
+
+     ➡️ Interpretable in same units as target variable.
+
+
+
+### 🟢 𝑭𝒐𝒓 𝑪𝒍𝒂𝒔𝒔𝒊𝒇𝒊𝒄𝒂𝒕𝒊𝒐𝒏 𝑷𝒓𝒐𝒃𝒍𝒆𝒎𝒔:
+
+4️⃣ 𝗔𝗰𝗰𝘂𝗿𝗮𝗰𝘆 – Proportion of correctly classified samples.
+
+      ➡️ Simple but can be misleading for imbalanced datasets.
+
+5️⃣ 𝗣𝗿𝗲𝗰𝗶𝘀𝗶𝗼𝗻 – True Positives / (True Positives + False Positives).
+
+      ➡️ How many predicted positives are actually positive.
+
+6️⃣ 𝗥𝗲𝗰𝗮𝗹𝗹 – True Positives / (True Positives + False Negatives).
+
+      ➡️ Ability to find all actual positives.
+
+
+
+## ✅ 𝑰𝒏𝒔𝒊𝒈𝒉𝒕𝒔:
+
+      📊 Use MAE, MSE, RMSE for regression to measure error magnitude.
+
+      🧠 Accuracy is good for balanced datasets, but Precision & Recall are better for imbalanced ones (like fraud detection, medical diagnosis).
+
+      🔍 Always choose metric based on business problem.
+
+---
