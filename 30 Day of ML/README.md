@@ -390,4 +390,60 @@ It is used when linear models fail to capture complex patterns in data.
  ✅ Balance between model complexity and performance is key — use visualization and metrics to choose degree.
  
  ---
- 
+ # 📈 Day 13: Logistic Regression – Binary & Multiclass Classification
+
+## 📌 Overview
+Logistic Regression is a popular classification algorithm used for binary and multiclass classification problems. Unlike Linear Regression, it predicts probabilities and uses sigmoid/softmax functions to output values between 0 and 1.
+
+
+## ✅ Binary Classification Example:
+- Dataset: Breast Cancer Dataset (Malignant/Benign)
+- Splitting data using train_test_split
+- Logistic Regression model fitting
+- Accuracy and Classification Report
+
+### Code Output Example:
+```
+Accuracy Score: 0.956140350877193
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96        42
+           1       0.95      0.95      0.95        72
+
+    accuracy                           0.96       114
+   macro avg       0.96      0.96      0.96       114
+weighted avg       0.96      0.96      0.96       114
+```
+
+
+## ✅ Multiclass Classification Example:
+- Dataset: Iris Dataset (3 classes)
+- Using multinomial Logistic Regression
+- Accuracy and Classification Report
+
+### Code Output Example:
+```
+Accuracy Score: 1.0
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    setosa       1.00      1.00      1.00        10
+versicolor       1.00      1.00      1.00         9
+ virginica       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+```
+
+
+## 📈 Insights:
+- Logistic Regression is powerful for simple classification tasks.
+- Binary classification uses sigmoid function.
+- Multiclass classification uses softmax (multinomial).
+- Easy to implement and interpret.
+
+---
