@@ -347,3 +347,47 @@ R² Score: Indicates how well data fit the regression model. Closer to 1 means b
 -> Visualization of the regression line helps understand fit and trend.
 
 ---
+
+# 📊 𝐃𝐚𝐲 𝟏𝟐: 𝐏𝐨𝐥𝐲𝐧𝐨𝐦𝐢𝐚𝐥 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧 – 𝐖𝐡𝐞𝐧 𝐭𝐨 𝐔𝐬𝐞 & 𝐇𝐨𝐰 𝐈𝐭 𝐖𝐨𝐫𝐤𝐬 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+ Today, let's dive into Polynomial Regression — a powerful method for handling non-linear relationships in data.
+
+
+
+## ✅ 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐏𝐨𝐥𝐲𝐧𝐨𝐦𝐢𝐚𝐥 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧?
+
+Polynomial Regression is an extension of Linear Regression that models the relationship between independent and dependent variables as an nth-degree polynomial.
+
+It is used when linear models fail to capture complex patterns in data.
+
+
+
+## 🔑 𝐖𝐡𝐞𝐧 𝐭𝐨 𝐔𝐬𝐞 𝐏𝐨𝐥𝐲𝐧𝐨𝐦𝐢𝐚𝐥 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧?
+
+ ✅ When the relationship between variables is non-linear.
+
+ ✅ When residual plots of linear regression show patterns (sign of underfitting).
+
+ ✅ To model complex curves and trends in the data.
+
+
+## 📊 𝐊𝐞𝐲 𝐈𝐧𝐬𝐢𝐠𝐡𝐭𝐬
+
+ ⚙️ Polynomial Regression captures non-linear patterns effectively.
+
+ ⚙️ Degree selection is crucial — too low: underfitting, too high: overfitting.
+
+ ⚙️ Always compare with Linear Regression to assess improvement.
+
+ ⚙️ Check R² Score (closer to 1 is better) and MSE (lower is better) to evaluate fit.
+
+
+
+ ✅ Polynomial Regression is essential for curved patterns where linear models fail.
+
+ ✅ Balance between model complexity and performance is key — use visualization and metrics to choose degree.
+ 
+ ---
+ 
