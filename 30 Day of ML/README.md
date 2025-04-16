@@ -511,3 +511,34 @@ Evaluating a Machine Learning model is crucial to measure how well it performs o
       🔍 Always choose metric based on business problem.
 
 ---
+
+#  🌳🤖 Day 15 — Decision Trees in Machine Learning 
+
+Decision Trees, a powerful and intuitive algorithm for both classification and regression tasks.
+
+## 🌳 What is a Decision Tree?
+A Decision Tree is a flowchart-like structure where:
+
+- Each internal node represents a decision on a feature.
+
+- Each branch represents an outcome of that decision.
+
+- Each leaf node represents a final output label (class/number).
+
+✅ Easy to interpret
+
+✅ Handles numerical & categorical data
+
+✅ Non-linear relationships
+
+## 💡 How does it work?
+- Splits data based on the feature that best separates the classes/values.
+Uses criteria like:
+  - Gini Index or Entropy (Information Gain) for classification.
+  - Mean Squared Error (MSE) for regression.
+## 📊 Applications
+- Classification (e.g., Spam Detection, Loan Approval)
+- Regression (e.g., House Price Prediction)
+- Feature Importance Ranking
+
+---
