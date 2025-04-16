@@ -542,3 +542,48 @@ Uses criteria like:
 - Feature Importance Ranking
 
 ---
+
+# 🌲✨ Day 16: Random Forest – Bagging & Boosting Techniques 
+
+Today, we're diving into Random Forest, one of the most powerful and widely used ensemble learning algorithms. We'll explore Bagging (Bootstrap Aggregating) and touch on Boosting, understanding how these methods enhance model performance! 💪📊
+
+## 🌟 What is Random Forest?
+
+✅ An ensemble learning method that builds multiple decision trees and merges their outputs for better accuracy and control over overfitting.
+
+✅ Works for both classification and regression problems.
+
+✅ Based on Bagging (Bootstrap Aggregating) technique.
+
+## 💡 Why Random Forest?
+🚀 Handles large datasets with higher dimensionality.
+
+🚀 Reduces overfitting by averaging multiple trees.
+
+🚀 Improves accuracy compared to a single decision tree.
+
+🚀 Handles missing values and maintains accuracy for missing data.
+
+
+## 🔑 Key Concepts:
+🔹 Bagging:
+
+- Random sampling of data with replacement.
+
+- Multiple models trained in parallel.
+    
+- Averaging (regression) or voting (classification) for final output.
+    
+- Goal: Reduce variance & prevent overfitting.
+
+🔹 Boosting (Brief Intro):
+
+- Models trained sequentially.
+    
+- Each new model focuses on correcting the previous model's mistakes.
+    
+- Algorithms: AdaBoost, Gradient Boosting, XGBoost.
+    
+- Goal: Reduce bias & improve prediction strength.
+
+---
