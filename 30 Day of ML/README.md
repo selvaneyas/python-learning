@@ -587,3 +587,34 @@ Today, we're diving into Random Forest, one of the most powerful and widely used
 - Goal: Reduce bias & improve prediction strength.
 
 ---
+
+## 📌 Day 17: Support Vector Machines (SVM) – Concept & Implementation
+
+Today, I explored one of the most powerful algorithms in Machine Learning — Support Vector Machines (SVM)! 🚀
+
+## 🔑 What is SVM?
+- SVM is a supervised learning algorithm used for classification and regression.
+- It works by finding the optimal hyperplane that separates data points of different classes with maximum margin.
+- SVM is highly effective in high-dimensional spaces and non-linear datasets when used with kernel tricks.
+
+## ✅ What I covered today:
+
+### 1️⃣ SVM Classification
+- Dataset: Iris Dataset 🌸
+- Used Linear & Non-linear (RBF Kernel) SVM for classification.
+- Visualized decision boundaries and support vectors.
+- Achieved high accuracy and interpreted results effectively.
+- 📊 Visualization of Decision Boundary helps in understanding the separation of classes.
+
+### 2️⃣ SVM Regression (SVR)
+- Dataset: California Housing Dataset 🏘️
+- Used Support Vector Regressor (SVR) to predict housing prices.
+- Evaluated using MSE, RMSE, and R² score for performance assessment.
+
+## 🔍 Key Takeaways:
+- SVM performs exceptionally well in complex datasets with proper tuning.
+- Kernel Trick (like RBF, Polynomial) enables SVM to handle non-linear classification problems.
+- Support Vectors play a crucial role in defining the hyperplane and margin.
+- SVR is an effective technique for regression problems where robustness to outliers is needed.
+
+---
