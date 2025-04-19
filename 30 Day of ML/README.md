@@ -646,3 +646,30 @@ k-NN is a powerful, yet simple algorithm used for **both classification and regr
 
 ---
 
+# 📌 𝐃𝐚𝐲 𝟏𝟗: 𝐍𝐚ï𝐯𝐞 𝐁𝐚𝐲𝐞𝐬 – 𝐏𝐫𝐨𝐛𝐚𝐛𝐢𝐥𝐢𝐬𝐭𝐢𝐜 𝐂𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐞𝐫 & 𝐔𝐬𝐞 𝐂𝐚𝐬𝐞𝐬
+
+
+
+Naïve Bayes is a powerful probabilistic classifier based on Bayes’ theorem, assuming that features are independent (hence "naïve"). It’s widely used in spam detection, sentiment analysis, medical diagnosis, and more!
+
+
+
+## 🔹 𝐓𝐲𝐩𝐞𝐬 𝐨𝐟 𝐍𝐚ï𝐯𝐞 𝐁𝐚𝐲𝐞𝐬 𝐂𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐞𝐫𝐬
+
+ ✔ Gaussian Naïve Bayes (GNB): Assumes normal distribution of features.
+
+ ✔ Multinomial Naïve Bayes (MNB): Best for text classification (e.g., spam filtering).
+
+ ✔ Bernoulli Naïve Bayes (BNB): Used for binary features (e.g., word presence in a document).
+
+
+
+## 🔹 𝐊𝐞𝐲 𝐓𝐚𝐤𝐞𝐚𝐰𝐚𝐲𝐬
+
+ ✅ Fast & efficient for large datasets
+
+ ✅ Performs well with small datasets & categorical data
+
+ ✅ Great for NLP tasks (spam detection, sentiment analysis)
+
+---
