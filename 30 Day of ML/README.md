@@ -618,3 +618,31 @@ Today, I explored one of the most powerful algorithms in Machine Learning — Su
 - SVR is an effective technique for regression problems where robustness to outliers is needed.
 
 ---
+
+# 🚀 Day18: k-Nearest Neighbors (k-NN) – Classification & Regression
+
+k-NN is a powerful, yet simple algorithm used for **both classification and regression**. It makes predictions based on the **majority vote** of k-nearest neighbors in the feature space.
+
+## 🔹 **Key Features:**
+✅ Works well with both **classification & regression**.
+
+✅ Uses **distance measures** like Euclidean, Manhattan, etc.
+
+✅ **Decision boundary visualization** helps understand how k-NN classifies data.
+
+## 🛠 **Implementation Highlights:**
+- 🔸 k-NN **Classification** – Predicts classes based on **majority voting**.
+- 🔸 k-NN **Regression** – Predicts values by averaging **k-nearest neighbors**.
+- 🔸 **Visualization of Decision Boundaries & Predictions** included.
+
+## 📊 **Results:**
+- ✔️ **Accuracy (Classification):** 91%
+- ✔️ **MSE (Regression):** 0.62, **R² Score:** 0.75
+
+## 🔍 **Key Insights:**
+- The choice of **k** affects model performance.
+- **Distance metric (Euclidean/Manhattan)** plays a crucial role.
+- **k-NN is simple yet effective** for many ML applications.
+
+---
+
