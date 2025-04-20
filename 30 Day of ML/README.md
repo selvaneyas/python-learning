@@ -673,3 +673,29 @@ Naïve Bayes is a powerful probabilistic classifier based on Bayes’ theorem, a
  ✅ Great for NLP tasks (spam detection, sentiment analysis)
 
 ---
+
+# 🚀 𝐃𝐚𝐲 𝟐𝟎: 𝐇𝐚𝐧𝐝𝐥𝐢𝐧𝐠 𝐈𝐦𝐛𝐚𝐥𝐚𝐧𝐜𝐞𝐝 𝐃𝐚𝐭𝐚 – 𝐒𝐌𝐎𝐓𝐄, 𝐂𝐥𝐚𝐬𝐬 𝐖𝐞𝐢𝐠𝐡𝐭𝐬, 𝐓𝐡𝐫𝐞𝐬𝐡𝐨𝐥𝐝𝐢𝐧𝐠 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+ Many real-world datasets have an unequal distribution of classes, leading to biased models. We explore three techniques to handle class imbalance:
+
+
+
+ ✅ SMOTE (Synthetic Minority Over-sampling Technique) – Creates synthetic samples for the minority class.
+
+ ✅ Class Weights – Assigns higher weights to the minority class to balance training.
+
+ ✅ Thresholding – Adjusts the decision threshold to optimize model performance.
+
+
+
+## 🔹 𝐊𝐞𝐲 𝐓𝐚𝐤𝐞𝐚𝐰𝐚𝐲𝐬
+
+ ✅ SMOTE creates synthetic data to balance the dataset.
+
+ ✅ Class Weights make the model more sensitive to the minority class.
+
+ ✅ Thresholding helps control precision and recall trade-offs.
+
+---
