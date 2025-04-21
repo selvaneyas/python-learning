@@ -751,3 +751,48 @@ Here’s a breakdown of three powerful tuning techniques:
 - Efficient hyperparameter tuning can lead to higher model accuracy, reduced overfitting, and faster training times. 🚀
 
 ---
+
+# 📈 𝐃𝐚𝐲 𝟐𝟐: 𝐈𝐧𝐭𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧 𝐭𝐨 𝐂𝐥𝐮𝐬𝐭𝐞𝐫𝐢𝐧𝐠 – 𝐤-𝐌𝐞𝐚𝐧𝐬 & 𝐇𝐢𝐞𝐫𝐚𝐫𝐜𝐡𝐢𝐜𝐚𝐥 𝐂𝐥𝐮𝐬𝐭𝐞𝐫𝐢𝐧𝐠 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+Clustering is a fundamental unsupervised machine learning technique used to group similar data points together. 
+
+
+
+## 𝗧𝘄𝗼 𝗽𝗼𝗽𝘂𝗹𝗮𝗿 𝗰𝗹𝘂𝘀𝘁𝗲𝗿𝗶𝗻𝗴 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀:
+
+ 🔹 k-Means Clustering – A centroid-based method that partitions data into k clusters.
+
+ 🔹 Hierarchical Clustering – A tree-based clustering method that creates a hierarchy of clusters.
+
+
+
+## 𝗪𝗵𝘆 𝗖𝗹𝘂𝘀𝘁𝗲𝗿𝗶𝗻𝗴?
+
+ ✅ Identifies hidden patterns in data.
+
+ ✅ Helps in customer segmentation, anomaly detection, and image segmentation.
+
+ ✅ Used in market research, bioinformatics, and recommendation systems.
+
+
+
+## 📊 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗶𝗻𝗴 𝗸-𝗠𝗲𝗮𝗻𝘀 & 𝗛𝗶𝗲𝗿𝗮𝗿𝗰𝗵𝗶𝗰𝗮𝗹 𝗖𝗹𝘂𝘀𝘁𝗲𝗿𝗶𝗻𝗴
+
+ 🔹 k-Means: Assigns data points to clusters based on proximity to centroids.
+
+ 🔹 Dendrogram (Hierarchical Clustering): Illustrates how clusters merge at different levels.
+
+
+
+## 🚀 𝗞𝗲𝘆 𝗧𝗮𝗸𝗲𝗮𝘄𝗮𝘆𝘀:
+
+ 🔹 k-Means is efficient but requires pre-defining the number of clusters.
+
+ 🔹 Hierarchical Clustering does not require specifying k but is computationally expensive for large datasets.
+
+ 🔹 Both methods are widely used for data exploration and pattern recognition.
+
+---
+
