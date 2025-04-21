@@ -699,3 +699,56 @@ Naïve Bayes is a powerful probabilistic classifier based on Bayes’ theorem, a
  ✅ Thresholding helps control precision and recall trade-offs.
 
 ---
+
+# 🔍 𝐃𝐚𝐲 𝟐𝟏: 𝐇𝐲𝐩𝐞𝐫𝐩𝐚𝐫𝐚𝐦𝐞𝐭𝐞𝐫 𝐓𝐮𝐧𝐢𝐧𝐠 – 𝐆𝐫𝐢𝐝 𝐒𝐞𝐚𝐫𝐜𝐡, 𝐑𝐚𝐧𝐝𝐨𝐦 𝐒𝐞𝐚𝐫𝐜𝐡, 𝐁𝐚𝐲𝐞𝐬𝐢𝐚𝐧 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+Hyperparameter tuning is the key to unlocking the full potential of machine learning models. Choosing the right method can significantly impact model performance, training efficiency, and computational cost.
+
+Here’s a breakdown of three powerful tuning techniques:
+
+
+
+## 1️⃣ 𝐆𝐫𝐢𝐝 𝐒𝐞𝐚𝐫𝐜𝐡 – 𝐄𝐱𝐡𝐚𝐮𝐬𝐭𝐢𝐯𝐞 𝐛𝐮𝐭 𝐂𝐨𝐬𝐭𝐥𝐲
+
+ ✅ Searches all possible hyperparameter combinations.
+
+ ✅ Best for small search spaces.
+
+ ⚠️ Computationally expensive for large datasets.
+
+
+
+## 2️⃣ 𝐑𝐚𝐧𝐝𝐨𝐦 𝐒𝐞𝐚𝐫𝐜𝐡 – 𝐅𝐚𝐬𝐭𝐞𝐫 & 𝐄𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭
+
+ ✅ Randomly selects hyperparameter combinations.
+
+ ✅ Balances speed and accuracy well.
+
+ ⚠️ May miss the best hyperparameters but often finds near-optimal ones.
+
+
+
+## 3️⃣ 𝐁𝐚𝐲𝐞𝐬𝐢𝐚𝐧 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 – 𝐒𝐦𝐚𝐫𝐭 & 𝐀𝐝𝐚𝐩𝐭𝐢𝐯𝐞
+
+ ✅ Uses probability-based methods to find optimal hyperparameters.
+
+ ✅ Works well for large and complex search spaces.
+
+ ✅ Faster than Grid & Random Search in many cases.
+
+
+
+## 💡 𝐖𝐡𝐢𝐜𝐡 𝐨𝐧𝐞 𝐬𝐡𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐮𝐬𝐞?
+
+- If your dataset is small, Grid Search can work.
+
+- For moderate datasets, Random Search is a great balance.
+
+- When dealing with large-scale ML problems, Bayesian Optimization is a game-changer.
+
+- Efficient hyperparameter tuning can lead to higher model accuracy, reduced overfitting, and faster training times. 🚀
+
+---
+
