@@ -795,3 +795,31 @@ Clustering is a fundamental unsupervised machine learning technique used to grou
  🔹 Both methods are widely used for data exploration and pattern recognition.
 
 ---
+
+# 👩‍💻 𝐃𝐚𝐲 𝟐𝟑: 𝐃𝐁𝐒𝐂𝐀𝐍 – 𝐃𝐞𝐧𝐬𝐢𝐭𝐲-𝐁𝐚𝐬𝐞𝐝 𝐂𝐥𝐮𝐬𝐭𝐞𝐫𝐢𝐧𝐠 𝐟𝐨𝐫 𝐀𝐧𝐨𝐦𝐚𝐥𝐲 𝐃𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a powerful clustering algorithm that identifies dense regions in data and separates them from noise (outliers). Unlike k-Means, it does not require predefining the number of clusters and can detect clusters of arbitrary shapes.
+
+## 🚀 𝐖𝐡𝐲 𝐃𝐁𝐒𝐂𝐀𝐍?
+ ✅ Detects anomalies/outliers in datasets.
+
+ ✅ Handles clusters of different densities & shapes effectively.
+ 
+ ✅ Works well for large datasets with noise.
+
+## 📊 𝐇𝐨𝐰 𝐃𝐁𝐒𝐂𝐀𝐍 𝐖𝐨𝐫𝐤𝐬?
+ 1️⃣ Defines core points with minimum neighbors (MinPts) within a given radius (ε).
+
+ 2️⃣ Expands clusters from core points while marking noise/outliers.
+
+ 3️⃣ Assigns remaining points to the nearest cluster.
+
+## 🔍 𝐊𝐞𝐲 𝐓𝐚𝐤𝐞𝐚𝐰𝐚𝐲𝐬:
+ 🔹 Handles noise and anomalies better than k-Means.
+
+ 🔹 No need to specify number of clusters beforehand.
+
+ 🔹 Works well for geospatial data, anomaly detection, and customer segmentation.
+
+ ---
+ 
