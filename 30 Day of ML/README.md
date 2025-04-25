@@ -823,3 +823,48 @@ DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a powerf
 
  ---
  
+ # 💻 𝐃𝐚𝐲 𝟐𝟒: 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐚𝐥 𝐂𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 (𝐏𝐂𝐀) – 𝐃𝐢𝐦𝐞𝐧𝐬𝐢𝐨𝐧𝐚𝐥𝐢𝐭𝐲 𝐑𝐞𝐝𝐮𝐜𝐭𝐢𝐨𝐧 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+## 🔎 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐏𝐂𝐀?
+
+ Principal Component Analysis (PCA) is a powerful dimensionality reduction technique used to transform high-dimensional data into a lower-dimensional space while preserving maximum variance.
+
+
+
+## 🚀 𝐖𝐡𝐲 𝐏𝐂𝐀?
+
+ ✅ Reduces computational cost for machine learning models.
+
+ ✅ Helps in visualizing high-dimensional data.
+
+ ✅ Removes correlation and redundancy in features.
+
+ ✅ Enhances model performance by avoiding the curse of dimensionality.
+
+
+
+## 📊 𝐇𝐨𝐰 𝐏𝐂𝐀 𝐖𝐨𝐫𝐤𝐬?
+
+ 1️⃣ Standardize the data.
+
+ 2️⃣ Compute the covariance matrix.
+
+ 3️⃣ Find the eigenvalues & eigenvectors.
+
+ 4️⃣ Select top principal components based on explained variance.
+
+ 5️⃣ Project data onto the new feature space.
+
+
+
+## 🔍 𝐊𝐞𝐲 𝐓𝐚𝐤𝐞𝐚𝐰𝐚𝐲𝐬:
+
+ 🔹 Dimensionality Reduction without significant data loss.
+
+ 🔹 Helps in feature selection & noise reduction.
+
+ 🔹 Essential for high-dimensional datasets like images, finance, and genomics.
+
+---
