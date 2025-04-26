@@ -869,4 +869,43 @@ DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a powerf
 
 ---
 
+ # 🛒📊𝐃𝐚𝐲 𝟐𝟓: 𝐀𝐬𝐬𝐨𝐜𝐢𝐚𝐭𝐢𝐨𝐧 𝐑𝐮𝐥𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 – 𝐀𝐩𝐫𝐢𝐨𝐫𝐢 & 𝐌𝐚𝐫𝐤𝐞𝐭 𝐁𝐚𝐬𝐤𝐞𝐭 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞 
+
+
+
+In the world of data-driven decision-making, understanding customer behavior is key! 
+
+🔑 Association Rule Learning helps uncover hidden relationships between items, making it invaluable for applications like market basket analysis, recommendation systems, and fraud detection.
+
+
+
+## 🔍 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐀𝐬𝐬𝐨𝐜𝐢𝐚𝐭𝐢𝐨𝐧 𝐑𝐮𝐥𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠?
+
+It’s a technique used to find patterns and correlations in large datasets. The two key concepts are:
+
+ 📌 Support – How frequently an itemset appears in transactions.
+
+ 📌 Confidence – The likelihood that one item appears given another.
+
+ 📌 Lift – The strength of the association compared to random chance.
+
+
+
+## 🏆 𝐀𝐩𝐫𝐢𝐨𝐫𝐢 𝐀𝐥𝐠𝐨𝐫𝐢𝐭𝐡𝐦
+
+Apriori is an efficient algorithm that iteratively finds frequent itemsets and derives association rules. It’s widely used in retail, e-commerce, and healthcare for insights like:
+
+ ✅ "People who buy bread also buy butter!" 🥖🧈
+
+ ✅ "Customers who purchase laptops often buy accessories!" 💻🎧
+
+
+
+## 🔥 𝐌𝐚𝐫𝐤𝐞𝐭 𝐁𝐚𝐬𝐤𝐞𝐭 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 𝐢𝐧 𝐀𝐜𝐭𝐢𝐨𝐧
+
+ 🔹 Used by Amazon, Walmart, and Netflix to boost cross-selling.
+
+ 🔹 Helps banks detect fraudulent transactions.
+
+ 🔹 Optimizes product placement in supermarkets for increased sales.
 
