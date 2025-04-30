@@ -910,3 +910,32 @@ Apriori is an efficient algorithm that iteratively finds frequent itemsets and d
  🔹 Optimizes product placement in supermarkets for increased sales.
 
 ---
+
+# 🖥⚖ 𝐃𝐚𝐲 𝟐𝟔: 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐒𝐞𝐥𝐞𝐜𝐭𝐢𝐨𝐧 𝐓𝐞𝐜𝐡𝐧𝐢𝐪𝐮𝐞𝐬 – 𝐋𝐚𝐬𝐬𝐨, 𝐑𝐢𝐝𝐠𝐞 & 𝐑𝐞𝐜𝐮𝐫𝐬𝐢𝐯𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐢𝐨𝐧 (𝐑𝐅𝐄) | 𝟑𝟎-𝐃𝐚𝐲 𝐌𝐋 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+
+
+Selecting the right features is crucial for building efficient machine learning models. Today, let’s explore three powerful techniques for Feature Selection that help improve model performance and reduce complexity:
+
+
+
+ 🔹 Lasso Regression (L1 Regularization) – Shrinks less important features to zero, effectively eliminating them.
+
+ 🔹 Ridge Regression (L2 Regularization) – Penalizes large coefficients but keeps all features, preventing overfitting.
+
+ 🔹 Recursive Feature Elimination (RFE) – Iteratively removes the weakest features based on a model’s performance.
+
+
+
+## 💡 𝐖𝐡𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐒𝐞𝐥𝐞𝐜𝐭𝐢𝐨𝐧 𝐌𝐚𝐭𝐭𝐞𝐫𝐬:
+
+ ✅ Reduces overfitting
+
+ ✅ Enhances model interpretability
+
+ ✅ Improves computational efficiency
+
+ ✅ Boosts model accuracy
+
+---
+
